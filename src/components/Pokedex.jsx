@@ -22,9 +22,9 @@ export const Pokedex = (props) => {
             {
                 fetched?
                 responseData.map((item, i) =>
-                <li key={i}>{item.name}</li>
+                <li key={i} class="nes-text is-primary">{item.name}</li>
                 ):
-                <li></li>
+                <p></p>
             }
             </ul>
         </div>
